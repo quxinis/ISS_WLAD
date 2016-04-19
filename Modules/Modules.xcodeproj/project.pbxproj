@@ -193,6 +193,9 @@
 		54F9697B1CC524F200AF3D76 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Shin;
@@ -493,6 +496,7 @@
 				54F969AF1CC524F200AF3D76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54F969B01CC524F200AF3D76 /* Build configuration list for PBXNativeTarget "ModulesTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +505,7 @@
 				54F969B21CC524F200AF3D76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54F969B31CC524F200AF3D76 /* Build configuration list for PBXNativeTarget "ModulesUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +514,7 @@
 				54F969B51CC524F200AF3D76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

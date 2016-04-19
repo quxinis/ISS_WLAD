@@ -79,7 +79,12 @@ class MasterViewController: UITableViewController {
         //let cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
         cell.textLabel!.text = objects[indexPath.row] as? String
         cell.detailTextLabel?.text = "This is the subtitle for " + cell.textLabel!.text!
-        return cell
+        if(indexPath.row<5){
+            cell.imageView?.image = UIImage(named: "Image"+String(indexPath.row+1))
+        }else{
+            cell.imageView?.image = UIImage(named: "NoImage")
+        }
+            return cell
     }
 
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
